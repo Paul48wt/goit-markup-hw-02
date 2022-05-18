@@ -1,0 +1,111 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* background: #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* акцент #2196F3 */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #FFFFFF;
+
+}
+body {
+background: #ffffff;
+color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts a{
+    color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.section.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #ffffff;
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.future-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+footer {
+    background-color: #2F303A;
+}
+
+.logo-studio-footer {
+color: #ffffff;
+}
+
+.address-city {
+   color: #FFFFFF; 
+}
+
+.address-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-mail:focus {
+    color: var(--accent-color);
+}
+
+.address-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-tel:hover,
+.address-tel:focus {
+    color: var(--accent-color);
+}
