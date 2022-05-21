@@ -14,6 +14,8 @@ body {
   background: #ffffff;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -96,14 +98,10 @@ ul {
   text-transform: uppercase;
 }
 
-.future-list p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-}
 /* Section we */
 
-.section-we .title {
+.section-we-title,
+.section-team-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -113,14 +111,6 @@ ul {
 
 /* Section Team */
 
-.section-team-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-}
-
 .team-list .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -129,50 +119,10 @@ ul {
   text-align: center;
 }
 
-.team-list p {
-  font-weight: 400;
+.team-position {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-}
-
-/* Footer */
-footer {
-  background-color: #2f303a;
-}
-
-.logo-studio-footer {
-  color: #ffffff;
-}
-
-.address {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  text-decoration: none;
-}
-
-.address-city {
-  color: #ffffff;
-}
-
-.address-mail {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.address-mail:hover,
-.address-mail:focus {
-  color: var(--accent-color);
-}
-
-.address-tel {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.address-tel:hover,
-.address-tel:focus {
-  color: var(--accent-color);
 }
 
 /* Button */
@@ -184,6 +134,7 @@ footer {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -211,7 +162,44 @@ footer {
 }
 
 .portfolio-list p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+
+/* Footer */
+footer {
+  background-color: #2f303a;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.address-city {
+  color: #ffffff;
+}
+
+.address-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-color);
+}
+
+.address-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
 }
